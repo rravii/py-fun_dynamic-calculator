@@ -1,0 +1,8 @@
+# virtual environment
+venv/
+
+# Sphinx documentation
+docs/_build/
+
+# Distribution / packaging
+build/
