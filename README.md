@@ -1,5 +1,5 @@
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-## Assignment B1: Python Expressions & Unit Tests &nbsp; (10 Pts)
+## Python Expressions & Unit Tests &nbsp; 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 The assignment demonstrates Python's powerful *"one-liner"* expressions.
@@ -47,7 +47,6 @@ and purpose is:
  - [test_expressions.py](https://gitlab.bht-berlin.de/sgraupner/ds_cs4bd_2324/-/blob/main/C_expressions/test_expressions.py)
     : `______________________________`
  -->
-(1 Pt)
 
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -72,7 +71,6 @@ i) number of duplicate numbers: 0
 j) ascending, de-dup (n^2) numbers: []
 k) length: NEITHER
 ```
-(1 Pt)
 
 Implement functions one after another in
 [*src/expressions/expressions.py*](src/expressions/expressions.py)
@@ -93,7 +91,6 @@ i) number of duplicate numbers: 2
 j) ascending, de-dup (n^2) numbers: [1, 9, 16, 49, 64, 144, 289]
 k) length: ODD_LIST
 ```
-(1 Pt)
 
 Uncomment the second expression `e2` in 
 [*src/expressions/expressions.py*](src/expressions/expressions.py)
@@ -163,7 +160,6 @@ and answer questions:
 
  - Where is the test runner started in given files?
 
-(1 Pt)
 
 Run tests in a terminal. Currently, only one test runs and passes:
 *TestCase_a_number_of_numbers* :
@@ -194,7 +190,6 @@ python -m unittest              # let test runner discover tests
 ```
 Output is the same as above.
 
-(1 Pt)
 
 Configure your IDE so it runs Unit Tests (you can use other IDE than VS Code
 that is used here as example).
@@ -278,7 +273,6 @@ When tests fail, the test report tells which tests have failed and why:
 
 Tests refer to the `self.numbers` list: `[4, 12, 3, 8, 17, 12, 1, 8, 7]`.
 
-(1 Pt)
 
 
 
@@ -352,8 +346,6 @@ OK
 
 11 tests succeeded.
 
-(3 Pts)
-
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -363,4 +355,3 @@ OK
 
 Check branch `expressions` into your remote repository.
 
-(1 Pt)

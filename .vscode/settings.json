@@ -14,7 +14,7 @@
     // - verify: python -m pytest --version --> 8.4.2
     // - install module 'pytest': pip install pytest
     "python.testing.pytestEnabled": true,
-    "python.testing.unittestEnabled": true,
+    "python.testing.unittestEnabled": false,
     "python.testing.autoTestDiscoverOnSaveEnabled": true,
     "python.testing.unittestArgs": [
         "-v", "-s", "${workspaceFolder}/tests", "-p", "*_test*.py"
@@ -53,7 +53,10 @@
         "Command Prompt": null,
         "JavaScript Debug Terminal": null,
         "Ubuntu (WSL)": null,
-    }
+    },
+    "python.testing.pytestArgs": [
+        "tests"
+    ]
 }
 //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // VSCode global settings file and project caches:
