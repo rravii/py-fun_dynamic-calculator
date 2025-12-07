@@ -2,12 +2,12 @@
 .vscode
 
 # build and setup files maintained on separate branch
-makefile
-requirements.txt
+# makefile
+# requirements.txt
 setup.py
 
 # README.md
-README.md
+# README.md
 
 # tmp files and directories
 *tmp/
